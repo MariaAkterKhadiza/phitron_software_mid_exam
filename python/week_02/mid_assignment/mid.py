@@ -85,20 +85,20 @@ class Library:
 
 
 
-# Initialize library and books
+
 my_library = Library()
 
 
-book1 = Book(101, "Pother Panchali", "Bivuti Bhushon", library=my_library)
-book2 = Book(102, "Putul Nacher Itikotha", "Manik Bondopadhaya", availability=False, library=my_library)
-book3 = Book(103, "Hajar Bosor Dhore", "Johir Raihan", library=my_library)
+book1 = Book(1001, "Clean Code: A Handbook of Agile Software Craftsmanship", "Robert C. Martin", library=my_library)
+book2 = Book(1002, "Introduction to Algorithms", "Thomas H. Cormen", availability=False, library=my_library)
+book3 = Book(1003, "You Don't Know JS Yet: Get Started", "Kyle Simpson", library=my_library)
 
 
-# Menu-driven system
+
 while True:
-    print("\n--- Library Menu ---")
-    print("1: View All Books")
-    print("2: Borrow Book")
+    print("\n---Welcome to Book Library ---")
+    print("1: Show All Books")
+    print("2: Borrow  Book")
     print("3: Return Book")
     print("4: Exit")
     choice = input("Enter your choice (1-4): ")
